@@ -27,6 +27,9 @@ body {
   margin: 0;
   width: 100vw;
   height: 100dvh;
+  overflow-x: hidden;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
 }
 div {
   width: 100vw;
