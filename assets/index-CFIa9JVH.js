@@ -27441,7 +27441,7 @@ const Ca = document.querySelector("#section-0 .section-content"),
   G_ = document.querySelector("#section-11 .section-content");
 zt.push({
   start: 0,
-  end: 3,
+  end: 0,
   func: () => {
     Ee.position.set(-0.075, 0, 3),
       Ee.lookAt(ct, lt, ut),
@@ -27449,40 +27449,40 @@ zt.push({
   },
 });
 zt.push({
-  start: 3,
-  end: 10,
+  start: 0,
+  end: 8,
   func: () => {
-    (ct = ie(-0.075, 0.385, se(3, 10))),
-      (lt = ie(0, 0.85, se(3, 10))),
-      (ut = ie(0, 0.35, se(3, 10))),
-      (Ee.position.x = ie(-0.075, 0.385, se(3, 10))),
-      (Ee.position.y = ie(0, 0.85, se(3, 10))),
-      (Ee.position.z = ie(3, 0.35, se(3, 10))),
+    (ct = ie(-0.075, 0.385, se(0, 8))),
+      (lt = ie(0, 0.85, se(0, 8))),
+      (ut = ie(0, 0.35, se(0, 8))),
+      (Ee.position.x = ie(-0.075, 0.385, se(0, 8))),
+      (Ee.position.y = ie(0, 0.85, se(0, 8))),
+      (Ee.position.z = ie(3, 0.35, se(0, 8))),
       Ee.lookAt(ct, lt, ut),
-      (Ca.style.opacity = ie(1, 0, se(3, 5))),
-      (La.style.opacity = ie(0, 1, se(9.5, 10)));
+      (Ca.style.opacity = ie(1, 0, se(0, 2))),
+      (La.style.opacity = ie(0, 1, se(7.5, 8)));
+  },
+});
+zt.push({
+  start: 10,
+  end: 12,
+  func: () => {
+    (Ee.position.z = ie(0.35, 0.5, se(10, 12))),
+      Ee.lookAt(ct, lt, ut),
+      (Ca.style.opacity = 0),
+      (La.style.opacity = ie(1, 0, se(10, 12)));
   },
 });
 zt.push({
   start: 12,
-  end: 14,
-  func: () => {
-    (Ee.position.z = ie(0.35, 0.5, se(12, 14))),
-      Ee.lookAt(ct, lt, ut),
-      (Ca.style.opacity = 0),
-      (La.style.opacity = ie(1, 0, se(12, 14)));
-  },
-});
-zt.push({
-  start: 14,
   end: 19,
   func: () => {
-    (ct = ie(0.385, -0.5, se(14, 19))),
-      (lt = ie(0.85, 0.865, se(14, 19))),
-      (ut = ie(0.35, 0.1, se(14, 19))),
-      (Ee.position.x = ie(0.385, -0.65, se(14, 19))),
-      (Ee.position.y = ie(0.85, 0.9, se(14, 19))),
-      (Ee.position.z = ie(0.5, 0.45, se(14, 19))),
+    (ct = ie(0.385, -0.5, se(12, 19))),
+      (lt = ie(0.85, 0.865, se(12, 19))),
+      (ut = ie(0.35, 0.1, se(12, 19))),
+      (Ee.position.x = ie(0.385, -0.65, se(12, 19))),
+      (Ee.position.y = ie(0.85, 0.9, se(12, 19))),
+      (Ee.position.z = ie(0.5, 0.45, se(12, 19))),
       Ee.lookAt(ct, lt, ut),
       (La.style.opacity = 0),
       (Pa.style.opacity = ie(0, 1, se(18.5, 19)));
